@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RoomPilot
 
 RoomPilot is a local AI meeting-room booking assistant. Users describe a meeting in natural language, and the application extracts the booking details, finds suitable rooms, checks availability, and stores the reservation in a JSON data file.
@@ -159,6 +158,23 @@ npm run dev
 Open `http://localhost:5173/`. Vite proxies `/api` requests to Flask on port `5001` and provides hot reload. The Flask production-style local workflow serves the built frontend from `frontend/dist` on `http://localhost:5001/`.
 
 For UI work without Gemini quota, set `LLM_PROVIDER="fake"` in `.env`, restart Flask, and use `npm run dev`.
+
+### Vercel deployment
+
+The repository includes `vercel.json`, `api/index.py`, and `pyproject.toml` for Vercel. The Python runtime is constrained to Python 3.11 or 3.12 so `pydantic-core` uses a prebuilt wheel instead of attempting a Rust build under Python 3.14.
+
+Set these Vercel environment variables before deploying:
+
+```text
+PROJECT_NAME
+FLASK_SECRET_KEY
+TEMPERATURE
+LLM_PROVIDER
+GEMINI_API_KEY
+GEMINI_MODEL_NAME
+```
+
+Vercel functions have ephemeral storage. The local JSON booking store and SQLite checkpoint database are suitable for demos and preview testing, but durable deployment requires an external database or storage service.
 
 ### One-shot live verification
 
