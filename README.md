@@ -161,7 +161,7 @@ For UI work without Gemini quota, set `LLM_PROVIDER="fake"` in `.env`, restart F
 
 ### Vercel deployment
 
-The repository includes `vercel.json`, `api/index.py`, and `pyproject.toml` for Vercel. The Python runtime is constrained to Python 3.11 or 3.12 so `pydantic-core` uses a prebuilt wheel instead of attempting a Rust build under Python 3.14.
+The repository includes `vercel.json`, `api/index.py`, and `pyproject.toml` for Vercel. The dependency pins include a prebuilt `pydantic-core` wheel for Vercel's Python 3.14 runtime, avoiding a Rust build during deployment.
 
 Set these Vercel environment variables before deploying:
 
