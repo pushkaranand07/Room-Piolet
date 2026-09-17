@@ -1,0 +1,14 @@
+langchain==0.3.10
+langgraph==0.2.45
+langserve==0.3.0
+langsmith==0.1.147
+langchain-core==0.3.62
+langchain-groq==0.2.1
+langchain-google-genai==2.1.5
+
+flask==3.1.0
+
+pydantic==2.11.4
+pydantic-core==2.33.2
+python-dotenv==1.1.0
+tzdata>=2024.1          # zoneinfo IANA timezone DB for Windows (Python 3.9+)

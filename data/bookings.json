@@ -1,0 +1,278 @@
+{
+    "2": [
+        {
+            "room_id": 2,
+            "start_time": "2026-09-19T10:00:00",
+            "end_time": "2026-09-19T12:00:00",
+            "booked_by": "Alex"
+        },
+        {
+            "room_id": 2,
+            "start_time": "2026-09-18T10:00:00",
+            "end_time": "2026-09-18T12:00:00",
+            "booked_by": "Alex"
+        },
+        {
+            "booking_id": "BK-0F296E",
+            "room_id": "2",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:20:12.011273"
+        }
+    ],
+    "12": [
+        {
+            "room_id": 12,
+            "start_time": "2026-09-18T10:00:00",
+            "end_time": "2026-09-18T12:00:00",
+            "booked_by": "Alex"
+        },
+        {
+            "booking_id": "BK-6304A8",
+            "room_id": "12",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:26:13.094731"
+        }
+    ],
+    "1": [
+        {
+            "booking_id": "BK-F90277",
+            "room_id": "1",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:19:00.676896"
+        },
+        {
+            "booking_id": "BK-25CE4B",
+            "room_id": "1",
+            "start_time": "2026-10-01T14:00:00",
+            "end_time": "2026-10-01T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:25:06.562411"
+        },
+        {
+            "booking_id": "BK-45A7CD",
+            "room_id": "1",
+            "start_time": "2026-10-01T14:00:00",
+            "end_time": "2026-10-01T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:25:18.357914"
+        }
+    ],
+    "3": [
+        {
+            "booking_id": "BK-AA5666",
+            "room_id": "3",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T16:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:26:58.647251"
+        }
+    ],
+    "4": [
+        {
+            "booking_id": "BK-06C2E8",
+            "room_id": "4",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T16:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:28:14.213986"
+        }
+    ],
+    "5": [
+        {
+            "booking_id": "BK-F620DF",
+            "room_id": "5",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T16:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:29:28.944501"
+        }
+    ],
+    "6": [
+        {
+            "booking_id": "BK-830CDA",
+            "room_id": "6",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:32:01.142073"
+        }
+    ],
+    "7": [
+        {
+            "booking_id": "BK-3F6BBE",
+            "room_id": "7",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T16:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:33:23.441318"
+        }
+    ],
+    "8": [
+        {
+            "booking_id": "BK-597883",
+            "room_id": "8",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:54:45.334195"
+        }
+    ],
+    "9": [
+        {
+            "booking_id": "BK-C53662",
+            "room_id": "9",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T15:57:33.268491"
+        }
+    ],
+    "10": [
+        {
+            "booking_id": "BK-8A59B9",
+            "room_id": "10",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:25:05.769331"
+        }
+    ],
+    "11": [
+        {
+            "booking_id": "BK-7D329B",
+            "room_id": "11",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:25:06.760122"
+        },
+        {
+            "booking_id": "BK-239E35",
+            "room_id": "11",
+            "start_time": "2026-09-18T16:25:06.779284",
+            "end_time": "2026-09-18T17:25:06.779284",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:25:06.779308"
+        }
+    ],
+    "13": [
+        {
+            "booking_id": "BK-5AC356",
+            "room_id": "13",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:26:13.900109"
+        }
+    ],
+    "14": [
+        {
+            "booking_id": "BK-E15A87",
+            "room_id": "14",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:27:50.802291"
+        }
+    ],
+    "15": [
+        {
+            "booking_id": "BK-67A956",
+            "room_id": "15",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:27:51.628846"
+        }
+    ],
+    "16": [
+        {
+            "booking_id": "BK-9D5DFA",
+            "room_id": "16",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:28:28.540654"
+        }
+    ],
+    "17": [
+        {
+            "booking_id": "BK-FD1226",
+            "room_id": "17",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:28:29.353451"
+        }
+    ],
+    "18": [
+        {
+            "booking_id": "BK-DFB392",
+            "room_id": "18",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:43:14.058338"
+        }
+    ],
+    "19": [
+        {
+            "booking_id": "BK-25BDC4",
+            "room_id": "19",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:47:52.244416"
+        }
+    ],
+    "20": [
+        {
+            "booking_id": "BK-39794B",
+            "room_id": "20",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:50:58.043580"
+        }
+    ],
+    "21": [
+        {
+            "booking_id": "BK-933372",
+            "room_id": "21",
+            "start_time": "2026-09-18T14:00:00",
+            "end_time": "2026-09-18T15:00:00",
+            "booked_by": "Alex",
+            "purpose": "",
+            "created_at": "2026-09-17T16:51:30.608690"
+        }
+    ]
+}

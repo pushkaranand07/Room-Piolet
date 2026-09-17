@@ -1,0 +1,23 @@
+__pycache__/
+.pytest_cache/
+.venv/
+node_modules/
+frontend/dist/
+dist/
+
+draft/
+logs/
+.obsidian/
+.env
+cookies.txt
+
+
+environment.yml
+test.ipynb
+
+# LangGraph checkpoint DB
+data/checkpoints.sqlite
+data/checkpoints.sqlite-journal
+data/checkpoints.sqlite-wal
+data/checkpoints.sqlite-shm
+data/test_persist.sqlite
