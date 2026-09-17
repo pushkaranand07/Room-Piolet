@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RoomPilot
 
 RoomPilot is a local AI meeting-room booking assistant. Users describe a meeting in natural language, and the application extracts the booking details, finds suitable rooms, checks availability, and stores the reservation in a JSON data file.
