@@ -1,0 +1,22 @@
+name: MLReps
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Without this the scan reports that every file was never committed.
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install
+      - run: npx mlreps scan . --publish
+        env:
+          MLREPS_KEY: ${{ secrets.MLREPS_KEY }}
+          MLREPS_ENDPOINT: http://localhost:3000
